@@ -112,12 +112,13 @@ head(dados_PNUD_pe)
 # A tibble: 6 x 5
 CO_MUNICIPIO  IDHM Mat_Muni Doc_Muni Mat_Doc
    <dbl>      <dbl>    <int>    <int>   <dbl>
-1   2615805   0.519     6986      731    9.56  # Município 2615805 (TUPANATINGA) é o que tem o maior número de alunos por docente e IDHM (em 2010) de 0.519.
+1   2615805   0.519     6986      731    9.56  
 2   2615102   0.545     1882      210    8.96
 3   2609154   0.487     6391      714    8.95
 4   2607505   0.51      7277      894    8.14
 5   2607000   0.523     6138      772    7.95
 6   2606309   0.595     2082      269    7.74
+# Resultado: Município 2615805 (TUPANATINGA) é o que tem o maior número de alunos por docente e IDHM (em 2010) de 0.519.
 
 ## 2.6 - Faça o teste do coeficiente de correlação linear de pearson e apresente sua resposta;
 
