@@ -143,5 +143,12 @@ save(aluno_docente_IDHM, file = "alunos_docentes_IDHM.RData")
 # Requerer pacote "ggplot2":
 require(ggplot2)
 
-# Usar função "plot" para gerar um scatterplot de alunos por docente (eixo x) e IDHM (eixo y):
-plot(Aluno_por_Docente,IDHM)
+### Questão 3: 
+
+# Requerer pacote "ggplot2":
+require(ggplot2)
+
+# Usar função "ggplot" para gerar um scatterplot de alunos por docente (eixo x) e IDHM (eixo y):
+ggplot(aluno_docente_IDHM, aes(x=Aluno_por_Docente, y=IDHM)) + 
+  geom_point()+
+  geom_smooth(method=lm, se=FALSE)
